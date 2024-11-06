@@ -246,10 +246,10 @@
 <h2><p style="font-weight: bolder;">Поместится ли жидкость в ёмкости?</p></h2><br><br>
 
 <h2><p style="font-weight: bolder;"> 
-Ребро куба A=<label for="in_a"></label><input name="q" type="text" id="in_a"><br><br>
-Высота цилиндра H=<label for="in_b"></label><input  type="text" id="in_b"> 
-Радиус основания цилиндра R=<label for="in_c"></label><input  type="text" id="in_c"><br><br>
-Объём жидкости M=<label for="in_c"></label><input  type="text" id="in_d"><br><br> 
+Ребро куба A=<label for="in_a"></label><input name="a" type="text" id="in_a"><br><br>
+Высота цилиндра H=<label for="in_b"></label><input name="b" type="text" id="in_b"> 
+Радиус основания цилиндра R=<label for="in_c"></label><input name="c" type="text" id="in_c"><br><br>
+Объём жидкости M=<label for="in_c"></label><input name="d" type="text" id="in_d"><br><br> 
 <button onclick="checkCapacity()">Проверить</button><br><br> 
 </p></h2>
 
@@ -280,7 +280,7 @@ if (fitsInCube && fitsInCylinder){
 }
 </script> 
 
-<input type="submit" value="Отправить"> <br> 
+<input type="submit" name="q" value="Отправить"> <br> 
 </form> 
 
 </section>
