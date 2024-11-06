@@ -1,1 +1,1 @@
-https://lennokk.github.io/KR_1/index.html
+https://lennokk.github.io/KR_1/Index.html
