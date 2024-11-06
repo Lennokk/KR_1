@@ -69,9 +69,6 @@ span{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
-.navbar a.aaa {
-            fcolor: #7CFC00;
-        }
 
 
 section{
@@ -79,8 +76,9 @@ section{
     padding: 10rem 15%;
 }
 
-navbar a.active {
+navbar a:active {
     font-weight: bolder;
+    color: #00FA9A;
 }
 
 
