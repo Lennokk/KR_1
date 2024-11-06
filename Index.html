@@ -290,8 +290,9 @@ if (fitsInCube && fitsInCylinder){
         <h1><p style="font-weight: bolder;">Contact me</p></h1><br><br>
     </div>
     
-<form id="yourinfo" action="https://www.google.com/search?">
-    
+<form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blanck">
+
+    <p>Для поисковика:input type="hidden" name="q" value="search"></p>
     <p>Имя: <input type="Text" name="name" size=30  value="Вася"></p><br><br>
     <p>Фамилия: <input type="Text" name="last_name" size=30  value="Пупкин"></p><br><br>
     <p>Возраст: <input type="Number" name="age" size=30 value="0"></p><br><br>
@@ -323,11 +324,13 @@ if (fitsInCube && fitsInCylinder){
     <p>Пароль: <input type="Password" name="password" size=9  value="123"></p><br><br>
     <p>Название файла: <input type="Техт" name="file_name" value="IA_UVASYA_PUPKIN.txt" size='30'></p><br><br>
 
-    
+    <input type="hidden" name="function" value="page">
+    <input type="hidden" name="page_id" value="3">
+            
     <div class="send-button">
         <p>
         <input type="Reset"  name="Reset"  value="Обновить">
-        <input type="submit" name="submit"  value="Отправить">
+        <input type="Submit" name="Submit"  value="Отправить">
         </p><br><br>
     </div>
 </form>
