@@ -69,7 +69,7 @@ span{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
- nav a.aaa {
+.navbar a.aaa {
             fcolor: #7CFC00;
         }
 
